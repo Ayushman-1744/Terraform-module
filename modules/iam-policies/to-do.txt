@@ -1,0 +1,5 @@
+1- user
+2- attach policies
+3- create group
+4- add new user and add to group
+5- give group one permisssion
