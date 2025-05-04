@@ -1,5 +1,5 @@
 resource "aws_iam_user" "my_user" {
-  name = "ayushman"
+  name = "${var.username}"
 }
 resource "aws_iam_user_policy_attachment" "attach_policy" {
   user       = aws_iam_user.my_user.name
@@ -7,7 +7,7 @@ resource "aws_iam_user_policy_attachment" "attach_policy" {
 }
 
 resource "aws_iam_group" "my_group" {
-  name = "group-3"
+  name = "${var.group_name}"
 }
 
 resource "aws_iam_user_group_membership" "example_membership" {

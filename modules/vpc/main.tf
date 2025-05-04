@@ -2,7 +2,7 @@
 resource "aws_vpc" "main" {
   cidr_block = "10.0.0.0/20"
   tags = {
-    Name = "main-vpc"
+    Name = "${var.vpc_name}"
   }
 }
 
