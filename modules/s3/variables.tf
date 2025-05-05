@@ -1,4 +1,4 @@
 variable "username" {
-  description = "astro-1744"
-  type = string
+  description = "Enter name of bucket"
 }
+

@@ -1,5 +1,6 @@
-#A Terraform-based project that deploys a basic web application to AWS Elastic Beanstalk using a single-instance environment, with the application source stored in S3.
-#What You Need to Do
+#A Terraform-based project that deploys a basic web application to AWS Elastic Beanstalk using a single-instance 
+# environment, with the application source stored in S3.
+# What You Need to Do
 # Upload your app ZIP to an S3 bucket:
 
 # Go to AWS S3 Console.
